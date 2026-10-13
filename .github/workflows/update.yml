@@ -1,1 +1,62 @@
+name: Jazz-Kalender aktualisieren
 
+on:
+  schedule:
+    - cron: "23 4 * * *"   # täglich: feste Quellen (Clubs, Festival, Sudhaus)
+    - cron: "41 4 * * 1"   # montags zusätzlich: Claude-Websuche nach weiteren Konzerten
+  workflow_dispatch:
+    inputs:
+      websuche:
+        description: "Claude-Websuche ausführen (braucht ANTHROPIC_API_KEY)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      HAS_CLAUDE_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Werkzeuge installieren
+        run: pip install --quiet beautifulsoup4 icalendar
+
+      - name: Websuche nach weiteren Jazzkonzerten (Claude, wöchentlich)
+        if: env.HAS_CLAUDE_KEY == 'true' && (github.event.schedule == '41 4 * * 1' || inputs.websuche)
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Lies AGENT.md und führe die wöchentliche Websuche aus. Ändere ausschließlich extra_events.json
+            und schreibe Deinen Bericht in LETZTER_LAUF.md. Committe NICHT selbst.
+          claude_args: "--allowedTools Bash,Read,Write,Edit,WebFetch,WebSearch"
+
+      - name: Termine aus den festen Quellen lesen
+        id: scrape
+        continue-on-error: true
+        run: python3 scrape.py
+
+      - name: ICS erzeugen und Änderungen committen
+        run: |
+          python3 generate_ics.py
+          git config user.name "jazz-kalender-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- events.json extra_events.json; then
+            echo "Keine inhaltlichen Änderungen."
+          else
+            git add -A
+            git commit -m "Jazz-Kalender: automatische Aktualisierung $(date +%F)"
+            git push
+          fi
+
+      - name: Fehler melden (E-Mail von GitHub)
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Mindestens eine Quelle konnte nicht gelesen werden – Details im Schritt 'Termine aus den festen Quellen lesen'."
+          exit 1
