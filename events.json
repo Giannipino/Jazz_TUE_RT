@@ -1063,6 +1063,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jazzclub-2026-12-23-jazzclub-xmas-special",
+   "source": "jazzclub",
+   "date": "2026-12-23",
+   "start": "20:30",
+   "title": "Jazzclub XMAS Special",
+   "location": "Club Voltaire",
+   "url": "https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/486-jazzclub-xmas-special",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jidm-10000048-1798057800-1798068600-jazzindermitte-de",
    "source": "jidm",
    "date": "2026-12-23",
