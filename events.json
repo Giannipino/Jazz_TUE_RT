@@ -28,6 +28,18 @@
    ]
   },
   {
+   "uid": "jazz-jkt-2026-10-16-shuteen-erdenabaatar-nils-kugelmann-unde",
+   "source": "jkt",
+   "date": "2026-10-16",
+   "start": "20:00",
+   "title": "Shuteen Erdenabaatar & Nils Kugelmann \"Under the Same Stars\"",
+   "location": "C. Bechstein Centrum Tübingen",
+   "url": "https://www.jazzklassiktage.de/2026/p1.htm",
+   "note": "Festival: Tübinger Jazz- & Klassiktage",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jidm-10000011-1792182600-1792191600-jazzindermitte-de",
    "source": "jidm",
    "date": "2026-10-16",
@@ -1166,6 +1178,18 @@
    "title": "Friday HIGHSCHOOL JAZZ | DARIO VERNUCCIO QUARTETT",
    "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
    "url": "https://jazzindermitte.de/programm/friday-highschool-jazz-dario-vernuccio-quartett/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
+   "uid": "jazz-jidm-10000050-1800734400-1800745200-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-01-23",
+   "start": "20:00",
+   "title": "SEARCHING FOR HOME",
+   "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/searching-for-home/",
    "note": "",
    "cancelled": false,
    "time_guess": false
