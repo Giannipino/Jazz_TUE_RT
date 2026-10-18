@@ -1195,6 +1195,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jidm-10000046-1801254600-1801263600-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-01-29",
+   "start": "20:30",
+   "title": "Friday Jam2Chill",
+   "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/friday-jam2chill/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jipk-2027-02-05-rainer-b-hm-trio",
    "source": "jipk",
    "date": "2027-02-05",
