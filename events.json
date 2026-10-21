@@ -247,7 +247,10 @@
    "url": "https://www.jazzklassiktage.de/2026/30.htm",
    "note": "Festival: Tübinger Jazz- & Klassiktage",
    "cancelled": false,
-   "time_guess": false
+   "time_guess": false,
+   "also": [
+    "Tübinger Jazz- & Klassiktage"
+   ]
   },
   {
    "uid": "jazz-jkt-2026-10-20-the-other-side-of-the-moon-ein-musikalis",
