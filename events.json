@@ -466,6 +466,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jkt-2026-10-23-jakob-nacken-die-toyboys",
+   "source": "jkt",
+   "date": "2026-10-23",
+   "start": "20:00",
+   "title": "Jakob Nacken & Die Toyboys",
+   "location": "Sudhaus",
+   "url": "https://www.jazzklassiktage.de/2026/64.htm",
+   "note": "Festival: Tübinger Jazz- & Klassiktage",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-sudhaus-2026-10-23-jakob-nacken-die-toyboys",
    "source": "sudhaus",
    "date": "2026-10-23",
@@ -1229,6 +1241,18 @@
    "title": "Friday Jam2Chill",
    "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
    "url": "https://jazzindermitte.de/programm/friday-jam2chill/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
+   "uid": "jazz-jidm-10000047-1801339200-1801350000-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-01-30",
+   "start": "20:00",
+   "title": "CHRIS HOPKINS MEETS THE YOUNG LIONS",
+   "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/chris-hopkins-meets-the-young-lions/",
    "note": "",
    "cancelled": false,
    "time_guess": false
