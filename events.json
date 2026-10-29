@@ -418,6 +418,18 @@
    ]
   },
   {
+   "uid": "jazz-jkt-2026-10-22-shalosh",
+   "source": "jkt",
+   "date": "2026-10-22",
+   "start": "20:00",
+   "title": "Shalosh",
+   "location": "KSK Carré Tübingen",
+   "url": "https://www.jazzklassiktage.de/2026/52.htm",
+   "note": "Festival: Tübinger Jazz- & Klassiktage",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jkt-2026-10-22-musique-royale",
    "source": "jkt",
    "date": "2026-10-22",
@@ -716,7 +728,7 @@
    "source": "jidm",
    "date": "2026-10-30",
    "start": "20:30",
-   "title": "MATHIAS OSTERTAG presents - ROLAND HRASTINSKI",
+   "title": "MATTHIAS OSTERTAG presents - ROLAND HRASTINSKI",
    "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
    "url": "https://jazzindermitte.de/programm/mathias-ostertag-presents-roland-hrastinski/",
    "note": "",
@@ -1057,13 +1069,13 @@
    "uid": "jazz-jipk-2026-12-16-bill-laurance-stuttgarter-kammerorcheste",
    "source": "jipk",
    "date": "2026-12-16",
-   "start": "18:30",
+   "start": "20:00",
    "title": "Bill Laurance & Stuttgarter Kammerorchester",
    "location": "Marc-Kemmler-Saal der Tübinger Musikschule",
    "url": "https://jipk.net/2026-bill-laurance-stuttgarter-kammerorchester/",
-   "note": "weitere Vorstellung: 21:00",
+   "note": "",
    "cancelled": false,
-   "time_guess": false
+   "time_guess": true
   },
   {
    "uid": "jazz-jazzclub-2026-12-16-jil-pappert-quartett",
