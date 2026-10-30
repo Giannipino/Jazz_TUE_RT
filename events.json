@@ -1195,7 +1195,10 @@
    "url": "https://jipk.net/2027-rainer-tempel-quartett/",
    "note": "",
    "cancelled": false,
-   "time_guess": false
+   "time_guess": false,
+   "also": [
+    "Sudhaus Tübingen"
+   ]
   },
   {
    "uid": "jazz-jidm-10000044-1800045000-1800054000-jazzindermitte-de",
