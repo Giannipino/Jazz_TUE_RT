@@ -1069,13 +1069,13 @@
    "uid": "jazz-jipk-2026-12-16-bill-laurance-stuttgarter-kammerorcheste",
    "source": "jipk",
    "date": "2026-12-16",
-   "start": "20:00",
+   "start": "18:30",
    "title": "Bill Laurance & Stuttgarter Kammerorchester",
    "location": "Marc-Kemmler-Saal der Tübinger Musikschule",
    "url": "https://jipk.net/2026-bill-laurance-stuttgarter-kammerorchester/",
    "note": "",
    "cancelled": false,
-   "time_guess": true
+   "time_guess": false
   },
   {
    "uid": "jazz-jazzclub-2026-12-16-jil-pappert-quartett",
