@@ -1171,6 +1171,21 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jipk-2027-01-09-rainer-tempel-new-quartet",
+   "source": "jipk",
+   "date": "2027-01-09",
+   "start": "20:00",
+   "title": "Rainer Tempel New Quartet",
+   "location": "Sudhaus",
+   "url": "https://jipk.net/2027-rainer-tempel-quartett/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false,
+   "also": [
+    "Sudhaus Tübingen"
+   ]
+  },
+  {
    "uid": "jazz-jidm-10000043-1799524800-1799535600-jazzindermitte-de",
    "source": "jidm",
    "date": "2027-01-09",
@@ -1181,21 +1196,6 @@
    "note": "",
    "cancelled": false,
    "time_guess": false
-  },
-  {
-   "uid": "jazz-jipk-2027-01-09-rainer-tempel-new-quartet",
-   "source": "jipk",
-   "date": "2027-01-09",
-   "start": "20:30",
-   "title": "Rainer Tempel New Quartet",
-   "location": "Sudhaus",
-   "url": "https://jipk.net/2027-rainer-tempel-quartett/",
-   "note": "",
-   "cancelled": false,
-   "time_guess": false,
-   "also": [
-    "Sudhaus Tübingen"
-   ]
   },
   {
    "uid": "jazz-jidm-10000044-1800045000-1800054000-jazzindermitte-de",
