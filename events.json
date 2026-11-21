@@ -1402,6 +1402,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jidm-10000061-1804278600-1804287600-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-03-05",
+   "start": "20:30",
+   "title": "Friday JAZZ JAM | MAINSTREAM",
+   "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/friday-jazz-jam-mainstream-6/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-sudhaus-2027-05-01-leslie-mandoki",
    "source": "sudhaus",
    "date": "2027-05-01",
