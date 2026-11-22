@@ -901,10 +901,7 @@
    "url": "https://jipk.net/2026-nighthawks/",
    "note": "",
    "cancelled": false,
-   "time_guess": false,
-   "also": [
-    "Sudhaus Tübingen"
-   ]
+   "time_guess": false
   },
   {
    "uid": "jazz-jidm-10000051-1795635000-1795647600-jazzindermitte-de",
@@ -1409,6 +1406,18 @@
    "title": "Friday JAZZ JAM | MAINSTREAM",
    "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
    "url": "https://jazzindermitte.de/programm/friday-jazz-jam-mainstream-6/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
+   "uid": "jazz-jidm-10000062-1804363200-1804374000-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-03-06",
+   "start": "20:00",
+   "title": "JOSCHO STEPHAN TRIO | Eröffnungskonzert JAZZfrühling",
+   "location": "Spitalhofsaal Reutlingen, Wilhelmstraße 69 / 71, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/joscho-stephan-trio-eroeffnungskonzert-jazzfruehling/",
    "note": "",
    "cancelled": false,
    "time_guess": false
