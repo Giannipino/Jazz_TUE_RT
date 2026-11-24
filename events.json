@@ -1255,6 +1255,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jidm-10000069-1801164600-1801175400-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-01-28",
+   "start": "19:30",
+   "title": "VINYL-Abend | UNITED JAZZ & ROCK ENSEMBLE",
+   "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/vinyl-abend-united-jazz-rock-ensemble/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jidm-10000046-1801254600-1801263600-jazzindermitte-de",
    "source": "jidm",
    "date": "2027-01-29",
@@ -1406,18 +1418,6 @@
    "title": "Friday JAZZ JAM | MAINSTREAM",
    "location": "JAZZclub IN DER MITTE e.V., Gartenstraße 36, Reutlingen, 72764",
    "url": "https://jazzindermitte.de/programm/friday-jazz-jam-mainstream-6/",
-   "note": "",
-   "cancelled": false,
-   "time_guess": false
-  },
-  {
-   "uid": "jazz-jidm-10000062-1804363200-1804374000-jazzindermitte-de",
-   "source": "jidm",
-   "date": "2027-03-06",
-   "start": "20:00",
-   "title": "JOSCHO STEPHAN TRIO | Eröffnungskonzert JAZZfrühling",
-   "location": "Spitalhofsaal Reutlingen, Wilhelmstraße 69 / 71, Reutlingen, 72764",
-   "url": "https://jazzindermitte.de/programm/joscho-stephan-trio-eroeffnungskonzert-jazzfruehling/",
    "note": "",
    "cancelled": false,
    "time_guess": false
