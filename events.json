@@ -1423,6 +1423,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jidm-10000062-1804363200-1804374000-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-03-06",
+   "start": "20:00",
+   "title": "JOSCHO STEPHAN TRIO | Eröffnungskonzert JAZZfrühling",
+   "location": "Spitalhofsaal Reutlingen, Wilhelmstraße 69 / 71, Reutlingen, 72764",
+   "url": "https://jazzindermitte.de/programm/joscho-stephan-trio-eroeffnungskonzert-jazzfruehling/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-sudhaus-2027-05-01-leslie-mandoki",
    "source": "sudhaus",
    "date": "2027-05-01",
