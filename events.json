@@ -1363,6 +1363,18 @@
    "time_guess": false
   },
   {
+   "uid": "jazz-jidm-10000070-1802980800-1802991600-jazzindermitte-de",
+   "source": "jidm",
+   "date": "2027-02-18",
+   "start": "20:00",
+   "title": "JAZZ JAM on TOUR | MITTE goes Nürtingen",
+   "location": "Kulturverein Provisorium e.V., Heiligkreuzstraße 4, Nürtingen, 72622",
+   "url": "https://jazzindermitte.de/programm/jazz-jam-on-tour-mitte-goes-nuertingen/",
+   "note": "",
+   "cancelled": false,
+   "time_guess": false
+  },
+  {
    "uid": "jazz-jidm-10000057-1803069000-1803078000-jazzindermitte-de",
    "source": "jidm",
    "date": "2027-02-19",
